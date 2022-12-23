@@ -1,0 +1,207 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: "Roboto", Arial, Helvetica sans-serif;
+	margin: 0;
+}
+
+.clearfix {
+	clear: both;
+}
+
+.wrapper-header {
+	background-color: #eeeff1;
+}
+
+.wrapper-hero {
+	background-color: #eeeff1;
+}
+
+.wrapper-about {
+	background-color: #ffffff;
+}
+
+.wrapper-projects {
+	background-color: #34547a;
+}
+
+.wrapper-how-i-work {
+	background-color: #ffffff;
+}
+
+.wrapper-footer {
+	background-color: #34547a;
+}
+
+.content {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+.header {
+	padding: 20px 0px;
+}
+
+.list-link {
+	text-transform: uppercase;
+}
+
+.discription {
+	max-width: 540px;
+	color: #727272;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 26px;
+}
+
+.about-title,
+.how-i-work-title {
+	font-weight: 500;
+	font-size: 32px;
+	line-height: 38px;
+	margin: 0;
+}
+
+.discription.about-paragraph {
+	text-align: center;
+	padding: 50px 0px 0px;
+}
+
+.discription.how-i-work-paragraph {
+	text-align: center;
+	padding: 50px 0px 57px;
+}
+
+.navigation {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.navigation .list-item {
+	float: left;
+	margin-right: 42px;
+}
+
+.navigation .list-item a:hover,
+.navigation .list-item a:focus {
+	color: #34547a;
+}
+
+.navigation .list-item a {
+	text-decoration: none;
+	color: #000000;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 26.25px;
+}
+
+.navigation .list-item a.active {
+	color: #34547a;
+}
+
+.hero {
+	padding: 72px 0 141px;
+}
+
+.hero-button {
+	border: none;
+	padding: 20px 62px;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 26px;
+	text-align: center;
+	letter-spacing: 0.1em;
+	color: #ffffff;
+	background-color: #34547a;
+	margin-top: 65px;
+	cursor: pointer;
+}
+
+.hero-button:hover,
+.hero-button:focus {
+	box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.15);
+}
+
+.hero-title {
+	font-weight: 500;
+	font-size: 48px;
+	line-height: 78.75px;
+}
+
+.about {
+	text-align: center;
+	padding: 112px 0px 100px;
+}
+
+.how-i-work {
+	text-align: center;
+	padding: 100px 0px 100px;
+}
+
+.projects {
+	padding: 100px 0px;
+}
+
+.projects-list {
+	list-style: none;
+	margin: 0 auto;
+	padding: 0;
+	width: 91%;
+}
+
+.projects-list-item {
+	float: left;
+	margin-right: 49px;
+}
+
+.projects-list-item:last-child {
+	margin-right: 0;
+}
+
+.project-icon {
+	float: left;
+}
+
+.projects-number {
+	color: #ffffff;
+	float: right;
+	margin: 0px 0px 0px 25px;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 26px;
+}
+
+.projects-number .projects-number-digit {
+	font-weight: 500;
+	font-size: 21px;
+	line-height: 25px;
+	display: block;
+}
+
+.footer {
+	padding: 50px 0px;
+}
+
+.author-name {
+	margin: 0px 0px 20px;
+	color: #ffffff;
+	font-weight: 500;
+	font-size: 21px;
+	line-height: 25px;
+}
+
+.rights-paragraph {
+	margin: 0;
+	color: #ffffff;
+	font-weight: 400;
+	font-size: 13px;
+	line-height: 21px;
+}
+
+.about .discription,
+.how-i-work .discription {
+	margin: 0 auto;
+}
